@@ -63,7 +63,7 @@ class TrinityRecord(
   // c++对象指针地址
   private var mHandle: Long = 0
   // 相机对象
-  private var mCamera = Camera1(preview.context, this)
+  private var mCamera = Camera1(this)
   // 预览宽
   private var mCameraWidth = 0
   // 预览高

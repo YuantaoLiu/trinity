@@ -37,7 +37,6 @@ import kotlin.math.min
  */
 
 class Camera1(
-  private val mContext: Context,
   private val mCameraCallback: CameraCallback
 ) : Camera, android.hardware.Camera.ErrorCallback {
 
